@@ -1,0 +1,115 @@
+import { _ as L } from "./pd-float-btn-FvbdUYvN.js";
+import { _ as V } from "./pd-tab-bar-rBmrR-Ys.js";
+import { _ as j } from "./pd-top-nav-DY27d3n5.js";
+import { _ as R } from "./pd-page-config-eS2iONoZ.js";
+import { D as z } from "./vuedraggable.umd-Bwsu9eAJ.js";
+import { s as F } from "./pageDeviseConfig-CnWYCywQ.js";
+import { R as H, q as v, p as w, E, S as q, P as U, _ as A, c as m, o as a, e as h, B as p, g as k, b as n, h as l, r as g, x as I, V as G, z as J, y as K } from "./index-DAdfXJ2i.js";
+import { u as M } from "./pageDevise-DcQ8796K.js";
+import { u as O } from "./usePageDeviseHooks-DhghPmFl.js";
+import { c as Q } from "./clientType-BhCLU4J5.js";
+import "./base-show-pnQX27ct.js";
+import "./goodsspu-DKL_9wDU.js";
+import "./useCompShowHooks-DgYh5gcW.js";
+import "./default-image-COzMKpJv.js";
+import "./pd-login-pc-EdPv3vQY.js";
+import "./pd-bargain-pc-BBHvcIo4.js";
+import "./ic_bargain_title-D39V029J.js";
+import "./pd-brand-pc-BRg6GgW1.js";
+import "./pd-coupon-pc-BrUMLnDA.js";
+import "./couponinfo-DcPdU1o6.js";
+import "./pd-goods-category-pc-D3IFNEU8.js";
+import "./goodscategory-DvhXgk83.js";
+import "./pd-goods-pc-DDynZDni.js";
+import "./pd-goods-row-pc-BKVJqghz.js";
+import "./pd-groupon-pc-DDZUjvwS.js";
+import "./ic_groupon_title-CwXpbXgl.js";
+import "./pd-image-multi-pc-CQglKs0F.js";
+import "./pd-image-pc-MQKq3-QU.js";
+import "./pd-nav-button-pc-CXuBp7bG.js";
+import "./pd-notice-pc-D9MJ6nq0.js";
+import "./ic_notice_title-CBoA872e.js";
+import "./pd-page-config-pc-pwENpGT0.js";
+import "./pd-page-footer-pc-CnufhIeS.js";
+import "./pd-page-header-pc-D2x1RYdW.js";
+import "./pd-page-logo-search-pc-CHloCHKG.js";
+import "./pd-rich-text-pc-YEbXaE_l.js";
+import "./BaseEditor-CKHWT0N2.js";
+import "./index-Qlhkq_mt.js";
+import "./configeditor-CYxVeM-q.js";
+import "./pd-search-pc-DOXhBNCx.js";
+import "./pd-seckill-pc-mitg3xEo.js";
+import "./ic_seckill_title-COMXdhN5.js";
+import "./pd-shop-pc-Bur0OITm.js";
+import "./pd-swiper-pc-Bn5RVxT-.js";
+import "./pd-title-text-pc-B025RQNZ.js";
+import "./pd-shop-info-pc-DOAY7lZq.js";
+import "./shopinfo-DR8w8ULX.js";
+import "./pd-shop-tabbar-pc-C8PQg2yo.js";
+import "./pd-category-Belh5v7N.js";
+import "./pd-goods-detail-action-8b8i4sKG.js";
+import "./pd-goods-detail-appraises-BkqURG15.js";
+import "./pd-goods-detail-desc-JYzVVkXc.js";
+import "./pd-goods-detail-name-C7g6tL9m.js";
+import "./pd-goods-detail-price-D0U9yQF0.js";
+import "./pd-goods-detail-recommend-DhJbaHTG.js";
+import "./pd-goods-detail-sku-CliQfoOX.js";
+import "./pd-goods-detail-swiper-DpA8hSWW.js";
+import "./pd-bargain-rn9mKt4K.js";
+import "./pd-brand-CWYUAcd_.js";
+import "./pd-coupon-BQQlIWY-.js";
+import "./pd-dialog-config-CaAEMGIz.js";
+import "./pd-goods-category-2-Ye8qS6.js";
+import "./pd-goods-market-lUqDnjIL.js";
+import "./pd-goods-new-BGr_klxt.js";
+import "./pd-goods-row-JRiKY43t.js";
+import "./pd-goods-waterfall-UQ7e7Els.js";
+import "./autoplay-SLPogy2y.js";
+import "./pd-goods-C5R_I1ep.js";
+import "./pd-groupon-B14CCuYX.js";
+import "./pd-image-hot-DadQHaUk.js";
+import "./pd-image-multi-D1x8UUX5.js";
+import "./pd-image-B4Bj1o_j.js";
+import "./pd-live-room-COeaPgZM.js";
+import "./pd-nav-button-BdAGSLTs.js";
+import "./pd-notice-Bdl2JuKF.js";
+import "./pd-rich-text-kuIeJoZE.js";
+import "./pd-search-CrI2tG3s.js";
+import "./pd-seckill-y6w79MJA.js";
+import "./pd-shop-BBWPsdIK.js";
+import "./pd-splash-screen-Lo9VSchM.js";
+import "./pd-swiper-CE9uHf9E.js";
+import "./pd-title-text-kvc5FlzB.js";
+import "./pd-shop-info-CawVyldo.js";
+import "./pd-shop-search-ChH7U97n.js";
+import "./pd-user-info-BKvD5bO8.js";
+import "./pd-user-order-center-DQP1ONiL.js";
+import "./pd-user-service-center-C2lGNhyv.js";
+import "./pd-user-wallet-Boq0CsFY.js";
+import "./pagedevise-C4VLpPB5.js";
+import "./appPageUrls-CBYQzZv9.js";
+const W = { components: { Draggable: z, ...F }, props: { scrollTop: { type: Number, default: 0 } }, setup(s) {
+  const e = H({ tabBarList: [], clientTypesValue: Q }), d = M(), o = v(() => d.getComponentsList), N = v(() => d.themeData), B = v(() => d.currentCompIndex), r = v(() => d.pageDeviseData || {}), c = v(() => d.homePagePath), S = v(() => d.homeShopPagePath), { showSetting: y, draggableChange: P, componentSort: u, componentDelete: f, showDivSetting: x, getComponentTitle: b } = O();
+  function T(i) {
+    r.value.id && i && (r.value.pageComponent[i] || (r.value.pageComponent[i] = U(`${i}`)), x(`${i}Component`, r.value.pageComponent[i]));
+  }
+  const D = w(false), C = w(null);
+  E(() => s.scrollTop, (i, _) => {
+    t(i);
+  });
+  function t(i = 0) {
+    if (!C.value) return;
+    const _ = C.value.offsetHeight;
+    i > _ ? D.value = true : D.value = false;
+  }
+  return { ...q(e), pageScroll: D, topNavRef: C, handleComponentSet: T, homePagePath: c, homeShopPagePath: S, themeData: N, pageDeviseData: r, currentCompIndex: B, componentsList: o, showSetting: y, draggableChange: P, componentDelete: f, componentSort: u, getComponentTitle: b, topNavScroll: t };
+} }, X = { class: "pg-pd-view" }, Y = { class: "pg-config-icon" }, Z = { key: 0 }, $ = { class: "components-list" }, oo = { key: 0, class: "mt-[200px]" }, eo = ["onClick"], to = { key: 0, class: "comp-item-left" }, no = { key: 1, class: "fn-block" }, ao = { class: "fn-block-icon" }, io = { key: 1, class: "pd-tab-bar-box" };
+function po(s, e, d, o, N, B) {
+  var _a, _b, _c, _d, _e, _f, _g, _h;
+  const r = g("FontIcon"), c = g("el-tooltip"), S = R, y = j, P = g("el-empty"), u = g("Delete"), f = g("el-icon"), x = g("Top"), b = g("Bottom"), T = g("draggable"), D = V, C = L;
+  return a(), m("div", X, [h("div", Y, [o.pageDeviseData.id ? (a(), m("div", { key: 0, class: "pg-config-icon-item", onClick: e[0] || (e[0] = (t) => o.handleComponentSet("pdPageConfig")) }, [n(c, { effect: "dark", content: s.$t("mall.pagedevise.pageNavConfig"), placement: "right" }, { default: l(() => [n(r, { class: "demonstration text-xxl", icon: "jl_smart-phone-01" })]), _: 1 }, 8, ["content"])])) : p("", true), o.pageDeviseData.id && (o.pageDeviseData.pageType == o.homePagePath || o.pageDeviseData.pageType == o.homeShopPagePath) ? (a(), m("div", { key: 1, class: "pg-config-icon-item", onClick: e[1] || (e[1] = (t) => o.handleComponentSet("pdThemeConfig")) }, [n(c, { effect: "dark", content: s.$t("mall.pagedevise.themeConfig"), placement: "right" }, { default: l(() => [n(r, { class: "demonstration text-xxl", icon: "jl_paint-brush-04" })]), _: 1 }, 8, ["content"])])) : p("", true), o.pageDeviseData.id && (o.pageDeviseData.pageType == o.homePagePath || o.pageDeviseData.pageType == o.homeShopPagePath) ? (a(), m("div", { key: 2, class: "pg-config-icon-item", onClick: e[2] || (e[2] = (t) => o.handleComponentSet("pdSplashScreen")) }, [n(c, { effect: "dark", content: s.$t("mall.pagedevise.launchPageConfig"), placement: "right" }, { default: l(() => [n(r, { class: "demonstration text-xxl", icon: "jl_image-02" })]), _: 1 }, 8, ["content"])])) : p("", true), o.pageDeviseData.id ? (a(), m("div", { key: 3, class: "pg-config-icon-item", onClick: e[3] || (e[3] = (t) => o.handleComponentSet("pdDialogConfig")) }, [n(c, { effect: "dark", content: s.$t("mall.pagedevise.popupImageConfig"), placement: "right" }, { default: l(() => [n(r, { class: "demonstration text-xxl", icon: "jl_sticky-note-02" })]), _: 1 }, 8, ["content"])])) : p("", true), o.pageDeviseData.id ? (a(), m("div", { key: 4, class: "pg-config-icon-item", onClick: e[4] || (e[4] = (t) => o.handleComponentSet("pdShareConfig")) }, [n(c, { effect: "dark", content: s.$t("mall.pagedevise.pageShareConfig"), placement: "right" }, { default: l(() => [n(r, { class: "demonstration text-xxl", icon: "jl_share-01" })]), _: 1 }, 8, ["content"])])) : p("", true), o.pageDeviseData.id && (o.pageDeviseData.pageType == o.homePagePath || o.pageDeviseData.pageType == o.homeShopPagePath) ? (a(), m("div", { key: 5, class: "pg-config-icon-item", onClick: e[5] || (e[5] = (t) => o.handleComponentSet("pdTabBar")) }, [n(c, { effect: "dark", content: s.$t("mall.pagedevise.pageTabbarSet"), placement: "right" }, { default: l(() => [n(r, { class: "demonstration text-xxl", icon: "jl_home-01" })]), _: 1 }, 8, ["content"])])) : p("", true)]), o.pageDeviseData.id ? (a(), m("div", Z, [n(S, { setData: o.pageDeviseData.pageComponent.pdPageConfig }, null, 8, ["setData"]), h("div", { ref: "topNavRef", class: "pg-top-nav", style: I({ position: o.pageScroll ? "fixed" : "absolute" }), onClick: e[6] || (e[6] = (t) => o.handleComponentSet("pdPageConfig")) }, [o.pageDeviseData.pageComponent.pdPageConfig ? (a(), k(y, { key: 0, pageScroll: o.pageScroll, setData: (_a = o.pageDeviseData.pageComponent.pdPageConfig) == null ? void 0 : _a.topNav }, null, 8, ["pageScroll", "setData"])) : p("", true)], 4)])) : p("", true), h("div", $, [!o.componentsList || o.componentsList.length == 0 ? (a(), m("div", oo, [n(P, { description: s.$t("commons.notData") }, null, 8, ["description"])])) : p("", true), o.componentsList && o.componentsList.length > 0 ? (a(), k(T, { key: 1, modelValue: o.componentsList, "onUpdate:modelValue": e[9] || (e[9] = (t) => o.componentsList = t), class: "cp-draggable-wrapper", style: I({ paddingTop: ((_d = (_c = (_b = o.pageDeviseData) == null ? void 0 : _b.pageComponent) == null ? void 0 : _c.pdPageConfig) == null ? void 0 : _d.topNav.fixedNav) == "1" ? "0px" : "80px", zIndex: 9999 }), "item-key": "id", animation: "300", filter: ".unmover", onChange: o.draggableChange }, { item: l(({ element: t, index: i }) => [(a(), m("div", { key: t.id, ref: "dragItemRef", class: G(["cp-drag-item", { "cp-focus-item": o.currentCompIndex != null && i == o.currentCompIndex, unmover: t.componentName == "pdImageHotComponent" }]), onClick: (_) => o.showSetting(i, t.componentName) }, [t.data.showSet == null || t.data.showSet == true ? (a(), m("div", to, J(o.getComponentTitle(t.componentName)), 1)) : p("", true), (a(), k(K(t.componentName), { setData: t.data }, null, 8, ["setData"])), o.currentCompIndex != null && i === o.currentCompIndex && (t.data.showSet == null || t.data.showSet == true) ? (a(), m("div", no, [h("div", ao, [n(f, { class: "icon", onClick: o.componentDelete }, { default: l(() => [n(u)]), _: 1 }, 8, ["onClick"]), n(f, { class: "icon", onClick: e[7] || (e[7] = (_) => o.componentSort("up")) }, { default: l(() => [n(x)]), _: 1 }), n(f, { class: "icon", onClick: e[8] || (e[8] = (_) => o.componentSort("down")) }, { default: l(() => [n(b)]), _: 1 })])])) : p("", true)], 10, eo))]), _: 1 }, 8, ["modelValue", "style", "onChange"])) : p("", true)]), o.pageDeviseData.pageComponent && o.pageDeviseData.pageComponent.pdTabBar && (o.pageDeviseData.pageType == o.homePagePath || o.pageDeviseData.pageType == o.homeShopPagePath) ? (a(), m("div", io, [h("div", { onClick: e[10] || (e[10] = (t) => o.handleComponentSet("pdTabBar")) }, [n(D, { setData: (_e = o.pageDeviseData.pageComponent) == null ? void 0 : _e.pdTabBar }, null, 8, ["setData"])])])) : p("", true), ((_g = (_f = o.pageDeviseData.pageComponent) == null ? void 0 : _f.pdPageConfig) == null ? void 0 : _g.floatBtnShow) == "1" ? (a(), k(C, { key: 2, setData: (_h = o.pageDeviseData.pageComponent) == null ? void 0 : _h.pdFloatBtn, onClick: e[11] || (e[11] = (t) => o.handleComponentSet("pdFloatBtn")) }, null, 8, ["setData"])) : p("", true)]);
+}
+const Je = A(W, [["render", po], ["__scopeId", "data-v-75344b75"]]);
+export {
+  Je as default
+};

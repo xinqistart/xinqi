@@ -1,0 +1,170 @@
+syntax = "proto3";
+import "Open-IM-Server/pkg/proto/sdk_ws/ws.proto";
+option go_package = "Open_IM/pkg/proto/msg;msg";
+package msg;
+
+message MsgDataToMQ{
+  string token =1;
+  string operationID = 2;
+  server_api_params.MsgData msgData = 3;
+}
+
+
+message MsgDataToDB {
+  server_api_params.MsgData msgData = 1;
+  string operationID = 2;
+
+}
+message PushMsgDataToMQ{
+  string OperationID = 1;
+  server_api_params.MsgData msgData = 2;
+  string pushToUserID = 3;
+}
+message MsgDataToMongoByMQ{
+ uint64 lastSeq =1;
+ string aggregationID = 2;
+ repeated MsgDataToMQ messageList = 3;
+ string triggerID = 4;
+
+
+}
+
+//message PullMessageReq {
+//  string UserID = 1;
+//  int64 SeqBegin = 2;
+//  int64 SeqEnd = 3;
+//  string OperationID = 4;
+//}
+//
+//message PullMessageResp {
+//  int32 ErrCode = 1;
+//  string ErrMsg = 2;
+//  int64 MaxSeq = 3;
+//  int64 MinSeq = 4;
+//  repeated GatherFormat SingleUserMsg = 5;
+//  repeated GatherFormat GroupUserMsg = 6;
+//}
+//message PullMessageBySeqListReq{
+//  string UserID = 1;
+//  string OperationID = 2;
+//  repeated int64 seqList =3;
+//}
+message GetMaxAndMinSeqReq {
+  string UserID = 1;
+  string OperationID = 2;
+}
+message GetMaxAndMinSeqResp {
+  int32 ErrCode = 1;
+  string ErrMsg = 2;
+  uint32 MaxSeq = 3;
+  uint32 MinSeq = 4;
+}
+
+message SendMsgReq {
+
+string token =1;
+string operationID = 2;
+server_api_params.MsgData msgData = 3;
+
+
+}
+
+message SendMsgResp {
+  int32 errCode = 1;
+  string errMsg = 2;
+  string serverMsgID = 4;
+  string clientMsgID = 5;
+  int64  sendTime = 6;
+}
+
+
+message ClearMsgReq{
+      string userID = 1;
+      string opUserID = 2;
+      string operationID = 3;
+}
+
+
+message ClearMsgResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+}
+
+message SetMsgMinSeqReq{
+  string userID = 1;
+  string groupID = 2;
+  uint32 minSeq = 3;
+  string operationID = 4;
+  string opUserID = 5;
+}
+message SetMsgMinSeqResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+}
+
+message SetSendMsgStatusReq{
+  string operationID = 1;
+  int32 status = 2;
+}
+
+message SetSendMsgStatusResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+}
+
+message GetSendMsgStatusReq{
+  string operationID = 1;
+}
+
+message GetSendMsgStatusResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+  int32 status = 3;
+}
+message DelSuperGroupMsgReq{
+  string opUserID = 1;
+  string userID = 2;
+  string groupID = 3;
+  string operationID = 4;
+}
+message DelSuperGroupMsgResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+}
+message GetSuperGroupMsgReq{
+  string operationID = 1;
+  uint32 Seq = 2;
+  string groupID = 3;
+
+}
+message GetSuperGroupMsgResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+  server_api_params.MsgData msgData = 3;
+}
+message GetWriteDiffMsgReq{
+    string operationID = 1;
+    uint32 Seq = 2;
+
+  }
+message GetWriteDiffMsgResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+  server_api_params.MsgData msgData = 3;
+}
+
+
+service msg {
+  rpc GetMaxAndMinSeq(server_api_params.GetMaxAndMinSeqReq) returns(server_api_params.GetMaxAndMinSeqResp);
+  rpc PullMessageBySeqList(server_api_params.PullMessageBySeqListReq) returns(server_api_params.PullMessageBySeqListResp);
+  rpc SendMsg(SendMsgReq) returns(SendMsgResp);
+  rpc DelMsgList(server_api_params.DelMsgListReq) returns(server_api_params.DelMsgListResp);
+  rpc DelSuperGroupMsg(DelSuperGroupMsgReq) returns(DelSuperGroupMsgResp);
+  rpc ClearMsg(ClearMsgReq) returns(ClearMsgResp);
+  rpc SetMsgMinSeq(SetMsgMinSeqReq) returns(SetMsgMinSeqResp);
+  rpc SetSendMsgStatus(SetSendMsgStatusReq) returns(SetSendMsgStatusResp);
+  rpc GetSendMsgStatus(GetSendMsgStatusReq) returns(GetSendMsgStatusResp);
+  rpc GetSuperGroupMsg(GetSuperGroupMsgReq) returns(GetSuperGroupMsgResp);
+  rpc GetWriteDiffMsg(GetWriteDiffMsgReq) returns(GetWriteDiffMsgResp);
+
+}

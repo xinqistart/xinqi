@@ -1,0 +1,12 @@
+import y from "./base-setting-BI1Sz0yX.js";
+import { s as C } from "./useCompSettingHooks-BBSAXeOe.js";
+import { _ as $, r as t, c as b, o as u, b as l, h as o, g as V, B as h, f as s, z as a, e as r } from "./index-DAdfXJ2i.js";
+const w = C(), D = { class: "text-red" };
+function N(e, d, k, B, T, L) {
+  const n = t("el-radio"), m = t("el-radio-group"), p = t("el-form-item"), _ = t("InfoFilled"), g = t("el-icon"), f = t("el-tooltip"), v = t("el-form"), c = y;
+  return u(), b("div", null, [l(c, null, { title: o(() => [s(a(e.$t("mall.pagedevise.goodsCategory")), 1)]), tip: o(() => [r("div", null, [r("div", null, a(e.$t("mall.pagedevise.goodsCategoryTips")), 1), r("div", D, a(e.$t("mall.pagedevise.goodsCategoryTips2")), 1)])]), content: o(() => [l(v, { ref: "form", "label-position": "left", model: e.formData }, { default: o(() => [l(p, { "label-width": "110px", label: e.$t("mall.pagedevise.goodsCategoryLevel") }, { default: o(() => [l(m, { modelValue: e.formData.levelNum, "onUpdate:modelValue": d[0] || (d[0] = (i) => e.formData.levelNum = i) }, { default: o(() => [l(n, { value: 1 }, { default: o(() => [s(a(e.$t("mall.pagedevise.goodsCategoryLevel1")), 1)]), _: 1 }), l(n, { value: 2 }, { default: o(() => [s(a(e.$t("mall.pagedevise.goodsCategoryLevel2")), 1)]), _: 1 }), l(n, { value: 3 }, { default: o(() => [s(a(e.$t("mall.pagedevise.goodsCategoryLevel3")), 1)]), _: 1 })]), _: 1 }, 8, ["modelValue"])]), _: 1 }, 8, ["label"]), e.formData.levelNum == 1 ? (u(), V(p, { key: 0, "label-width": "110px", label: e.$t("mall.pagedevise.goodsShoppingCartShow") }, { default: o(() => [l(m, { modelValue: e.formData.showMyCart, "onUpdate:modelValue": d[1] || (d[1] = (i) => e.formData.showMyCart = i) }, { default: o(() => [l(n, { value: "1" }, { default: o(() => [s(a(e.$t("mall.pagedevise.isShow")), 1)]), _: 1 }), l(n, { value: "0" }, { default: o(() => [s(a(e.$t("mall.pagedevise.isGone")), 1)]), _: 1 })]), _: 1 }, 8, ["modelValue"]), l(f, { class: "box-item", effect: "dark", placement: "top" }, { content: o(() => [r("div", null, a(e.$t("mall.pagedevise.goodsCategoryTips3")), 1)]), default: o(() => [l(g, null, { default: o(() => [l(_)]), _: 1 })]), _: 1 })]), _: 1 }, 8, ["label"])) : h("", true)]), _: 1 }, 8, ["model"])]), _: 1 })]);
+}
+const S = $(w, [["render", N]]), F = Object.freeze(Object.defineProperty({ __proto__: null, default: S }, Symbol.toStringTag, { value: "Module" }));
+export {
+  F as _
+};

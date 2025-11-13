@@ -1,0 +1,12 @@
+import { _ as l } from "./base-show-pnQX27ct.js";
+import { s as i } from "./useCompShowHooks-DgYh5gcW.js";
+import { _ as r, g as d, o as c, h as p, e as s, w as o, D as a, f as u, x as _ } from "./index-DAdfXJ2i.js";
+const x = i(), m = { class: "goods-activeBackground" }, g = { class: "padding-sm" }, f = { class: "text-xxl flex align-center" }, v = { class: "text-price text-gray text-df text-decorat margin-left-sm" }, h = { class: "operation flex" }, w = { class: "flex align-center margin-top-xs justify-between" }, D = { class: "flex text-cut" }, S = { class: "tag text-sm text-scarlet margin-right-xs" }, b = { class: "tag text-sm text-scarlet margin-right-xs" }, y = { class: "coupon-more" }, k = { class: "product-name" };
+function I(e, t, B, j, P, z) {
+  const n = l;
+  return c(), d(n, { styles: e.setData.styles, style: _({ borderRadius: `${e.setData.backgroundRadius}px` }) }, { default: p(() => [s("div", m, [s("div", g, [s("div", f, [s("div", null, [t[0] || (t[0] = s("span", { class: "text-price text-scarlet text-bold" }, "88", -1)), t[1] || (t[1] = s("span", { class: "text-scarlet margin-lr-xs" }, "-", -1)), t[2] || (t[2] = s("span", { class: "text-scarlet text-bold" }, "888", -1)), o(s("span", v, "8888", 512), [[a, e.setData.marketPriceShow != "0"]])]), s("div", h, [o(s("div", null, [...t[3] || (t[3] = [s("span", { class: "cuIcon-favor" }, null, -1), s("span", { class: "" }, "\u6536\u85CF", -1)])], 512), [[a, e.setData.collectIdShow != "0"]]), o(s("div", null, [...t[4] || (t[4] = [s("span", { class: "cuIcon-forward" }, null, -1), s("span", { class: "" }, "\u5206\u4EAB", -1)])], 512), [[a, e.setData.shareShow != "0"]])])]), s("div", w, [s("div", D, [t[5] || (t[5] = s("div", { class: "tag text-sm text-scarlet margin-right-xs" }, "\u7B49\u7EA7\u6298\u6263", -1)), o(s("div", S, " \u9886\u5238\u7ACB\u51CF88 ", 512), [[a, e.setData.couponShow != "0"]]), o(s("div", b, " \u9886\u5238\u7ACB\u51CF100 ", 512), [[a, e.setData.couponShow != "0"]])]), o(s("div", y, [...t[6] || (t[6] = [u(" \u9886\u5238 ", -1), s("span", { class: "cuIcon-right" }, null, -1)])], 512), [[a, e.setData.couponShow != "0"]])]), o(s("div", k, "\u5546\u54C1\u540D\u79F0", 512), [[a, e.setData.nameShow != "0"]])])])]), _: 1 }, 8, ["styles", "style"]);
+}
+const $ = r(x, [["render", I], ["__scopeId", "data-v-46a970c4"]]), T = Object.freeze(Object.defineProperty({ __proto__: null, default: $ }, Symbol.toStringTag, { value: "Module" }));
+export {
+  T as _
+};

@@ -1,0 +1,5 @@
+import { n as l } from "./index-DAdfXJ2i.js";
+const { $t: e } = l(), n = { dialogDrag: true, indexLabel: e("commons.indexLabel"), menuAlign: "center", align: "center", menuType: "text", searchShow: false, excelBtn: true, printBtn: false, viewBtn: true, searchMenuSpan: 6, labelWidth: 150, labelPosition: "left", column: [{ label: e("mall.shopdepositconfig.enable"), prop: "enable", type: "radio", sortable: true, span: 13, rules: [{ required: true, message: e("mall.shopdepositconfig.enable") + e("commons.notNull"), trigger: "blur" }, { max: 2, message: e("commons.lengthTips", { length: 2 }) }], dicData: [{ label: e("commons.open"), value: "1" }, { label: e("commons.close"), value: "0" }], labelTip: e("mall.shopdepositconfig.enableTip") }, { label: e("mall.shopdepositconfig.amount"), prop: "amount", sortable: true, span: 13, type: "number", minRows: 0.01, min: 0, precision: 2, rules: [{ required: true, message: e("mall.shopdepositconfig.amount") + e("commons.notNull"), trigger: "blur" }] }] };
+export {
+  n as t
+};

@@ -1,0 +1,12 @@
+import { _ as c } from "./base-show-pnQX27ct.js";
+import { s as u } from "./useCompShowHooks-DgYh5gcW.js";
+import { _ as m, g, o as s, h, e as t, x as a, c as o, B as n, w as f, D as _, z as i, f as y, F as D, v as b } from "./index-DAdfXJ2i.js";
+const v = u(), w = { style: { padding: "5px 10px", "white-space": "nowrap" } }, $ = { key: 0, class: "flex align-center justify-between outer-container" }, k = ["src"], R = { class: "shop-detail" }, B = { class: "item radius justify-center", style: { width: "70px" } }, S = { class: "flex shop-image radius justify-center" }, x = ["src"];
+function I(e, r, C, L, N, T) {
+  const d = c;
+  return s(), g(d, { styles: e.setData.styles }, { default: h(() => [t("div", { class: "cp-shop", style: a([{ "background-size": "100% 100%" }, { ...e.setBgStyle(e.setData.background), borderTopLeftRadius: `${e.setData.topLeftRadius}px`, borderTopRightRadius: `${e.setData.topRightRadius}px`, borderBottomLeftRadius: `${e.setData.bottomLeftRadius}px`, borderBottomRightRadius: `${e.setData.bottomRightRadius}px`, "background-image": e.setData.backgroundImg ? `url(${e.setData.backgroundImg})` : "" }]) }, [t("div", w, [e.setData.showTitle != "0" ? (s(), o("div", $, [t("div", { class: "shop-selection text-df flex align-center inner-container", style: a({ color: `${e.setData.titleColor}` }) }, [f(t("img", { class: "shop-title-image margin-right-xs", src: e.setData.titleImage }, null, 8, k), [[_, e.setData.titleImage]]), t("span", null, i(e.setData.title), 1)], 4), t("div", { class: "shop-more text-sm margin-right", style: a({ color: `${e.setData.titleColor}` }) }, [y(i(e.$t("mall.pagedevise.shopMoreBrands")), 1), r[0] || (r[0] = t("span", { class: "cuIcon-right" }, null, -1))], 4)])) : n("", true), t("div", R, [(s(true), o(D, null, b(e.setData.shopInfoData, (l, p) => (s(), o("div", { key: p, style: { float: "left", "margin-right": "5px" } }, [t("div", B, [t("div", S, [t("img", { src: l.imgUrl, class: "radius flex justify-center" }, null, 8, x)]), e.setData.showShopName != "0" ? (s(), o("div", { key: 0, style: a([{ width: "65px" }, { color: `${e.setData.shopNameColor}` }]), class: "text-center text-sm margin-top-xs overflow-1 text-black" }, i(l.name), 5)) : n("", true)])]))), 128))])])], 4)]), _: 1 }, 8, ["styles"]);
+}
+const j = m(v, [["render", I], ["__scopeId", "data-v-e5c98ab1"]]), M = Object.freeze(Object.defineProperty({ __proto__: null, default: j }, Symbol.toStringTag, { value: "Module" }));
+export {
+  M as _
+};

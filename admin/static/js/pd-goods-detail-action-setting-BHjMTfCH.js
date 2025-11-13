@@ -1,0 +1,12 @@
+import v from "./base-setting-BI1Sz0yX.js";
+import { s as S } from "./useCompSettingHooks-BBSAXeOe.js";
+import { _ as $, r as a, c as b, o as h, b as l, h as o, f as n, z as t, e as p } from "./index-DAdfXJ2i.js";
+const D = S();
+function w(e, s, C, T, k, y) {
+  const m = a("el-radio"), i = a("el-radio-group"), u = a("InfoFilled"), f = a("el-icon"), _ = a("el-tooltip"), r = a("el-form-item"), g = a("el-form"), c = v;
+  return h(), b("div", null, [l(c, null, { title: o(() => [n(t(e.$t("mall.pagedevise.goodsDetailOperationMenu")), 1)]), tip: o(() => [p("div", null, [p("div", null, t(e.$t("mall.pagedevise.goodsDetailTips1")), 1)])]), content: o(() => [l(g, { ref: "form", "label-position": "left", model: e.formData, "label-width": "130px" }, { default: o(() => [l(r, { label: e.$t("mall.pagedevise.goodsDetailShopShow") }, { default: o(() => [l(i, { modelValue: e.formData.shopShow, "onUpdate:modelValue": s[0] || (s[0] = (d) => e.formData.shopShow = d) }, { default: o(() => [l(m, { value: "1" }, { default: o(() => [n(t(e.$t("commons.show")), 1)]), _: 1 }), l(m, { value: "0" }, { default: o(() => [n(t(e.$t("commons.gone")), 1)]), _: 1 })]), _: 1 }, 8, ["modelValue"]), l(_, { class: "box-item", effect: "dark", placement: "top" }, { content: o(() => [p("div", null, t(e.$t("mall.pagedevise.goodsDetailTips2")), 1)]), default: o(() => [l(f, null, { default: o(() => [l(u)]), _: 1 })]), _: 1 })]), _: 1 }, 8, ["label"]), l(r, { label: e.$t("mall.pagedevise.goodsCustomerService") }, { default: o(() => [l(i, { modelValue: e.formData.customerServiceShow, "onUpdate:modelValue": s[1] || (s[1] = (d) => e.formData.customerServiceShow = d) }, { default: o(() => [l(m, { value: "1" }, { default: o(() => [n(t(e.$t("commons.show")), 1)]), _: 1 }), l(m, { value: "0" }, { default: o(() => [n(t(e.$t("commons.gone")), 1)]), _: 1 })]), _: 1 }, 8, ["modelValue"])]), _: 1 }, 8, ["label"]), l(r, { label: e.$t("mall.pagedevise.goodsShoppingCart") }, { default: o(() => [l(i, { modelValue: e.formData.shopCartShow, "onUpdate:modelValue": s[2] || (s[2] = (d) => e.formData.shopCartShow = d) }, { default: o(() => [l(m, { value: "1" }, { default: o(() => [n(t(e.$t("commons.show")), 1)]), _: 1 }), l(m, { value: "0" }, { default: o(() => [n(t(e.$t("commons.gone")), 1)]), _: 1 })]), _: 1 }, 8, ["modelValue"])]), _: 1 }, 8, ["label"])]), _: 1 }, 8, ["model"])]), _: 1 })]);
+}
+const V = $(D, [["render", w]]), U = Object.freeze(Object.defineProperty({ __proto__: null, default: V }, Symbol.toStringTag, { value: "Module" }));
+export {
+  U as _
+};

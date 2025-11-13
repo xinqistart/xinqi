@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>第三方平台授权</title>
+  <meta name="keywords" content="微信开发,微信开发框架,微信框架,微信第三方,小程序开发,前后端分离,微信开发源码,SpringCloud微服务">
+  <meta name="description" content="JooLun微信快速开发框架-采用目前最流行的前后端分离框架开发出来的微信快速开发平台。二次开发效率高，技术先进不怕被淘汰">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+  <script>
+    function submitAuth(){
+      window.location.href="../../weixin/open/auth/goto_auth_url" + window.location.search;
+    }
+  </script>
+  <style>
+    .main{
+      text-align: center;
+    }
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+    }
+    a {
+      text-decoration:none;
+      out-line: none;
+      color: #fff;
+    }
+    .textarea{
+      border:0;
+      border-radius:5px;
+      background-color:rgba(241,241,241,.98);
+      width: 355px;
+      height: 100px;
+      padding: 10px;
+      resize: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <textarea class="textarea">为保证您在JooLun平台功能的正常使用，授权时请保持默认选择，把开放平台账号管理权限统一授权给JooLun</textarea><p/>
+    <a>
+      <button class="button" onclick="submitAuth()">确认</button>
+    </a>
+  </div>
+</body>
+
+</html>
