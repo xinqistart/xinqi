@@ -1,19 +1,22 @@
 ## 🚀 项目简介
 
-【鑫启商城】全网首个一套代码覆盖单商户、多商户、多租户，且包含跨境功能的微服务架构开源商城。采用SpringCloud+Vue3等流行框架，覆盖多业务场景：B2B2C、S2B2C、B2C、SAAS多模式商城， 包含多端：小程序、H5、APP、PC，包含丰富的营销功能：拼团、秒杀、分销、套餐赠品、优惠券、满减折、多商家、直播、装修、跨境电商等功能，满足企业级商用需求。
-覆盖电商领域八大标准化解决方案
-多商户云市场系统(支持SaaS化部署)
-开源跨境版(MIT协议永久免费)
-SaaS化专业版(多租户模式)
-跨境贸易解决方案(多语言/多币种)
-社交化分销系统(三级裂变+佣金体系)
-直播电商引擎(实时连麦，点赞互动)
-智能收银中台(聚合支付+电子发票)
+【鑫启商城】全网首个一套代码覆盖单商户、多商户、多租户，且包含跨境功能的微服务架构开源商城。采用SpringCloud+Vue3等流行框架，覆盖B2B2C、S2B2C、B2C等多业务商城场景。
+<br>
+多端：小程序、H5、APP、PC；丰富的营销功能：拼团、秒杀、分销、套餐赠品、优惠券、满减折、多商家、直播、装修、跨境电商等功能，满足企业级商用需求。
+<br>
+覆盖电商领域八大标准化解决方案:
+多商户云市场系统(支持SaaS化部署)、
+开源跨境版(MIT协议永久免费)、
+SaaS化专业版(多租户模式)、
+跨境贸易解决方案(多语言/多币种)、
+社交化分销系统(三级裂变+佣金体系)、
+直播电商引擎(实时连麦，点赞互动)、
+智能收银中台(聚合支付+电子发票)。
 。
 
 ## ✨ 核心特性
 
-- **🎯 多模式支持**: 一套代码支持 B2B2C、S2B2C、B2C、SAAS 多模式商城
+- **🎯 多模式支持**: 一套代码支持 B2B2C、S2B2C、B2C
 - **🌍 跨境电商**: 内置多语言、多币种跨境贸易解决方案
 - **📱 全端覆盖**: 支持小程序、H5、APP、PC 多端适配
 - **🛠 微服务架构**: 基于 SpringCloud Alibaba 的分布式架构
@@ -37,6 +40,10 @@ SaaS化专业版(多租户模式)
 - **UI 组件**: Element Plus
 - **状态管理**: Pinia
 - **路由**: Vue Router 4
+
+### 客户端（移动端）技术栈
+- **框架**: UniApp
+- **UI 组件**: UViewUI
 
 ## 📋 版本说明
 
@@ -80,17 +87,10 @@ git clone https://gitee.com/xinqistart/xinqi.git
 详细部署文档请联系客服
 
 ## 📸 功能展示
-
-
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r1.png" width="800" />
 <br>
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r2.png" width="800" />
 <br>
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r3.png" width="800" />
 <br>
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r4.png" width="800" />
-<br>
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r5.png" width="800" />
+<img src="https://gitee.com/xinqistart/xinqi/raw/main/pic/zx.png" width="800" />
 <br>
 <img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r6.png" width="800" />
 <br>
@@ -100,7 +100,7 @@ git clone https://gitee.com/xinqistart/xinqi.git
 <br>
 <img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r9.png" width="800" />
 <br>
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r10.png" width="800" />
+<img src="https://gitee.com/xinqistart/xinqi/raw/main/pic/fz.png" width="800" />
 <br>
 <img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/r11.png" width="800" />
 <br>
@@ -113,7 +113,7 @@ git clone https://gitee.com/xinqistart/xinqi.git
 <div align="center">
 
 商务合作/技术咨询请扫码添加微信<br>
-<img src="https://xingqires.oss-cn-shanghai.aliyuncs.com/1/readme/contactwx.jpg" width="200" />
+<img src="https://gitee.com/xinqistart/xinqi/raw/main/pic/wx.jpg" width="200" />
 
 </div>
 </div>
@@ -128,7 +128,8 @@ git clone https://gitee.com/xinqistart/xinqi.git
 
 1. 允许个人学习及毕业设计使用。
 2. 禁止以任何形式、任何名义对本开源代码和资源进行出售、倒卖等商业牟利行为。
-3. 可联系技术人员免费限时体验商业版（同时支持版权定制化需求）。
+3. 可联系技术人员体验完整商业版（限时免费）。
+4. 可联系技术人员无偿提供系统演示服务（同时支持版权与logo定制化需求）。
 
 ### 开源协议摘要
 
@@ -141,7 +142,7 @@ git clone https://gitee.com/xinqistart/xinqi.git
 
 ## 💬 联系我们
 
-- 💼 **商务合作**: 客服微信 `[请替换为商务微信]`
+- 💼 **商务合作**: 联系客服微信 
 - 🐛 **问题反馈**: [Issues](https://gitee.com/xinqistart/xinqi/issues)
 - 📖 **部署文档**: 联系客服获得
 - 📖 **演示站**: 联系客服获得
